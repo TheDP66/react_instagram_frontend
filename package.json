@@ -1,0 +1,51 @@
+{
+  "name": "instagram-clone",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "ajv": "^6.12.6",
+    "common-tags": "^1.8.2",
+    "css-loader": "^6.5.1",
+    "fast-glob": "^3.2.11",
+    "firebase": "^7.15.5",
+    "fork-ts-checker-webpack-plugin": "^6.5.0",
+    "fs-extra": "^10.0.0",
+    "iconv-lite": "^0.6.3",
+    "postcss-selector-parser": "^6.0.9",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-flip-move": "^3.0.4",
+    "react-instagram-embed": "^1.5.0",
+    "react-scripts": "3.4.1",
+    "renderkid": "^3.0.0",
+    "source-map": "^0.7.3",
+    "webpack-manifest-plugin": "^4.1.1",
+    "workbox-build": "^6.4.2",
+    "workbox-webpack-plugin": "^6.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
